@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>圓桌公論</title>
+    <link rel="icon" type="image/x-icon" href="images/logo.png" sizes="16x16">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="bower_components/requirejs/require.js" data-main="main.js" async></script>
+</head>
+<body>
+
+<div id="header">
+        <div id="circle"><span>圓</span></div><h2 id="titleText">圓桌公論</h2>
+</div>
+
+<div id="navigation">
+        <a class="navigationTitle" href="#home">HOME</a>
+        <a class="navigationTitle" href="#">ARTICLE</a>
+        <a class="navigationTitle" href="#">DISCOURSE</a>
+        <a class="navigationTitle" href="#">ABOUT US</a>
+</div>
+
+
+<div class="view-container">
+      <div ng-view></div>
+</div>
+
+<footer>
+    圓桌公論-版权所有
+</footer>
+
+</body>
+</html>

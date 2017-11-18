@@ -1,0 +1,14 @@
+{
+  "name": "yuanzhuogonglun",
+  "description": "yuanzhuogonglun with AngularJS",
+  "version": "0.0.0",
+  "homepage": "https:/yuanzhuogonglun.github.io",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "angular": "~1.5.0",
+    "angular-route": "~1.5.0",
+    "requirejs": "latest",
+    "requirejs-domReady": "latest"
+  }
+}
