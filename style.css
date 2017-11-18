@@ -1,5 +1,6 @@
         html {
             font-size: 100px;
+            font-family: "Metropolis", "Helvetica Neue", helvetica, arial, sans-serif;
         }
 
         body {
@@ -12,6 +13,8 @@
         }
 
         div#header {
+            font-family: SimSun;
+            color: rgba(0,0,255,0.8);
             margin: auto;
             text-align: center;
             font-weight: 400;
@@ -28,9 +31,8 @@
             width: 1rem;
             height: 1rem;
             border-radius: 0.5rem;
-            border: 0.02rem solid blue;
+            border: 0.02rem solid ;
             display: inline-block;
-            color: blue;
             position: relative;
             box-shadow: 0 1px 3px rgba(0,0,0,0.3);
             text-shadow: 0 1px 3px rgba(0,0,0,0.3);
@@ -38,14 +40,11 @@
         }
 
         #circle>span {
-            /*position: relative;*/
             font-size: 0.6rem;
-            /*left: 20%;*/
             line-height: 163%;
         }
 
         h2#titleText {
-            color: blue;
             display: inline-block;
             position: relative;
             /*top: -24px;*/
