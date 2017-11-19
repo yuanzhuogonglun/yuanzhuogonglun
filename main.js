@@ -2,7 +2,7 @@ require.config({
 
   // alias libraries paths
     paths: {
-        'domReady': '../bower_components/requirejs-domready/domReady',
+        'domReady': '../bower_components/requirejs-domReady/domReady',
         'angular': '../bower_components/angular/angular',
         'ngRoute': '../bower_components/angular-route/angular-route'
     },
