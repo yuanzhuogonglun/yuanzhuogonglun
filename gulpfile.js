@@ -17,4 +17,9 @@ gulp.task('push', ['build'],function() {
 });
 
 
-gulp.task('deploy', ['build', 'push']);
+gulp.task('delete', ['push'],function() {
+  return gulp.src(['dist/**/*','.publish/**/*']).pipe(rm());
+});
+
+
+gulp.task('deploy', ['build', 'push'.'delete']);
